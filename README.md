@@ -34,7 +34,7 @@ Alpha-beta pruning enhances the Minimax algorithm by eliminating branches in the
 
 
 ## Time Complexity
-- Minimax: O(b^d), where b is the branching factor and d is the depth of the tree.
+- Minimax: $O(b^d)$, where b is the branching factor and d is the depth of the tree.
 - Alpha-Beta Pruning: O(b^(d/2)) in the best case, effectively doubling the search depth achievable in the same amount of time as Minimax.
 
 ## Space Complexity
